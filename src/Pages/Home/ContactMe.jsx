@@ -2,11 +2,7 @@ export default function ContactMe() {
     return (
       <section id="Contact" className="contact--section">
         <div>
-          <p className="sub--title">Get In Touch</p>
           <h2>Contact Me</h2>
-          <p className="text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
-          </p>
         </div>
         <form className="contact--form--container">
           <div className="container">
@@ -41,7 +37,7 @@ export default function ContactMe() {
               />
             </label>
             <label htmlFor="phone-number" className="contact--label">
-              <span className="text-md">phone-number</span>
+              <span className="text-md">Phone Number</span>
               <input
                 type="number"
                 className="contact--input text-md"

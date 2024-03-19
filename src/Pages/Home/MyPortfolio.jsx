@@ -6,12 +6,12 @@ export default function MyPortfolio() {
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          <h7 className="section--heading">My Portfolio</h7>
         </div>
         <div>
-          <button className="btn btn-github">
+          <button className="btn btn-github" onClick={() => window.open("https://github.com/Kenne-prog", "_blank")}>
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="https://github.com/Kenne-prog"
               width="32"
               height="32"
               viewBox="0 0 33 33"
@@ -42,7 +42,7 @@ export default function MyPortfolio() {
               <p className="text-sm portfolio--link">
                 {item.link}
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="https://github.com/Kenne-prog"
                   width="16"
                   height="16"
                   viewBox="0 0 20 19"
